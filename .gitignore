@@ -16,3 +16,4 @@ npm-debug.log
 
 #Electron-builder output
 /dist_electron
+node_modules
