@@ -1,7 +1,7 @@
 {
-  "name": "bt-triones",
-  "version": "0.1.2",
-  "description": "Bluetooth Triones Device built on Electron",
+  "name": "vue-electron-template",
+  "version": "0.0.1",
+  "description": "Vue Electron Template",
   "author": "Vince R",
   "scripts": {
     "build": "vue-cli-service electron:build",
@@ -16,15 +16,9 @@
   "dependencies": {
     "@beyonk/google-fonts-webpack-plugin": "^1.5.0",
     "core-js": "^3.6.5",
-    "fast-average-color": "^6.1.0",
-    "hex2dec": "^1.1.2",
     "lodash": "^4.17.20",
     "vue": "^2.6.12",
-    "vue-audio-visual": "^2.2.0",
-    "vue-color": "^2.7.1",
-    "vue-multiselect": "^2.1.6",
     "vue-router": "^3.2.0",
-    "vue-slider-component": "^3.2.6",
     "vuex": "^3.5.1",
     "vuex-electron": "^1.0.3"
   },
