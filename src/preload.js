@@ -1,18 +1,20 @@
 // All of the Node.js APIs are available in the preload process.
 // It has the same sandbox as a Chrome extension.
-import store from "./store/index";
-import { ipcRenderer } from "electron";
+// Preload allows you to send data from background.js or from native node modules to the frontend. Examples commented out below.
 
-window.addEventListener("bt-device", async (event) => {
-  ipcRenderer.send("bt-device", event.detail.device);
-});
+// import store from "./store/index";
+// import { ipcRenderer } from "electron";
 
-ipcRenderer.on("perm", (event, message) => {
-  store.dispatch("audio/micPermission", message);
-});
+// window.addEventListener("bt-device", async (event) => {
+//   ipcRenderer.send("bt-device", event.detail.device);
+// });
 
-ipcRenderer.on("deviceList", (event, deviceList) => {
-  store.dispatch("bt/devicesFound", deviceList);
-  store.dispatch("bt/connectText", "scanning...");
-  store.dispatch("bt/power", "on");
-});
+// ipcRenderer.on("perm", (event, message) => {
+//   store.dispatch("audio/micPermission", message);
+// });
+
+// ipcRenderer.on("deviceList", (event, deviceList) => {
+//   store.dispatch("bt/devicesFound", deviceList);
+//   store.dispatch("bt/connectText", "scanning...");
+//   store.dispatch("bt/power", "on");
+// });
