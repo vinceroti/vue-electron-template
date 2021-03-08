@@ -1,14 +1,10 @@
-# bt-triones
+# vue-electron-template
 
-**THIS IS UNFINISHED AND IS STILL VERY BUGGY**
-
-This is an vue electron application that hooks into Triones bluetooth devices.
+This is an vue electron application template.
 
 - https://nklayman.github.io/vue-cli-plugin-electron-builder/
 - https://www.electronjs.org/
 - https://vuejs.org/
-
-All protocals that this app uses can be found here - https://github.com/madhead/saberlight/blob/master/protocols/Triones/protocol.md
 
 ## To Use
 
